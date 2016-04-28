@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>图片悬浮</title>
+  <style>
+    div{
+    width:960px;
+    height: 660px;
+    border:3px solid #fff;
+    box-shadow:0px 0px 40px 0px red;
+    }
+    div img{
+     transition:all.2s ;
+      transform:scale(1)
+    }
+    div:hover img{
+      cursor:pointer;
+     transform:scale(2)
+
+     }
+    figcaption{
+      font-style:italic;
+       font-weight:900;
+     text-indent:2em;
+      letter-spacing:8px;
+      font-size:xx-large;
+    }
+        
+    }
+    div:hover figcaption{
+      color:rgba(0,60,0,1);
+      background-color:rgba(255,255,255,0.3);
+    }
+    figcaption{
+      font-style:italic;
+       font-weight:900;
+     text-indent:2em;
+      letter-spacing:8px;
+      font-size:xx-large;
+    }
+  </style>
+</head>
+<body>
+  <div class="a">
+     <figcaption>鹿晗</figcaption>
+    <img src="http://img5.duitang.com/uploads/item/201510/17/20151017130200_CB5yr.jpeg" alt="">
+  </div>
+</body>
+</html>
+
